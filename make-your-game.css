@@ -1,0 +1,132 @@
+body {
+    background-image: url("./space.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.alien {
+    width: 40px;
+    height: 40px;
+    background-image: url("./alien.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    padding: 0px;
+    padding-bottom: 5px;
+    
+}
+
+#group { 
+    block-size: fit-content;
+    position: absolute;
+    
+} 
+#canon {
+    width: 50px;
+    height: 50px;
+    background-image: url("./plane.png");
+    background-size: cover;
+    position: absolute;
+    
+}
+#bullet {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background: rgb(180, 185, 35);
+    position: absolute
+
+}
+#score {
+    top: 5px;
+    left: 220px;
+    position: absolute;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.shoot {
+    width: 6px;
+    height: 4px;
+    background:rgb(215, 222, 12);
+    position: absolute;
+}
+#pause {
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    background-color: rgb(227, 233, 227);
+}
+#reSet {
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    background-color: rgb(227, 233, 227);
+}
+#restart {
+    width: 120px;
+    height: 50px;
+    font-size: x-large;
+    background-color: rgb(227, 233, 227);
+}
+
+#over {
+    position: absolute;
+    font-size:xx-large;
+    top: 400px;
+    left: 300px;
+    color: white;
+}
+#left {
+    position: absolute;
+    top: 0px;
+    
+}
+#lives {
+    position: absolute;
+    font-size: x-large;
+    color: whitesmoke;
+}
+#victoire {
+    position: relative;
+    font-size: xx-large;
+    width: fit-content;
+    margin: auto;
+    top: 300px;
+    color: whitesmoke;
+}
+#goOn {
+    
+    width: 150px;
+    height: 50px;
+    font-size: x-large;
+    background-color: rgb(227, 233, 227);
+}
+#quit {
+    
+    width: 120px;
+    height: 50px;
+    font-size: x-large;
+    background-color: rgb(227, 233, 227);
+    
+}
+#timing {
+    position: absolute;
+    top: 30px;
+    font-size: x-large;
+    color: whitesmoke;
+    }
+#level {
+    position: absolute;
+    top: 30px;
+    font-size: x-large;
+    color: whitesmoke;
+}
+#start {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    background-color: whitesmoke;
+    font-size: 50px ;
+    font-weight: bolder;
+}
